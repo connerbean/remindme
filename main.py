@@ -32,7 +32,7 @@ while (userInput != "q"):
 
     else:
         inputDate = userInput.split()[0]    # get the input date as first token
-        inputDate.replace('/', '-')         # replace slashes with dashes to minimize error
+        inputDate = inputDate.replace('/', '-')         # replace slashes with dashes to minimize error
         inputReminder = userInput[userInput.index(' ') + 1:]    # rest of line signifying the reminder
 
         # try to insert the data into the reminders database
