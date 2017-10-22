@@ -36,8 +36,8 @@ Sends message and closes connections
 Reads data from btc and database
 '''
 def main():
-    MY_ADDRESS = "remindme_script@outlook.com"
-    PASSWORD = "r3m1ndm3!"
+    MY_ADDRESS = {REDACTED}
+    PASSWORD = {REDACTED}
 
     # Current date
     curr = str(datetime.datetime.now().month)
