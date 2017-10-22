@@ -21,4 +21,4 @@ def main():
     btcPrice = "$" + btcJson['bpi']['USD']['rate'][:-2]
 
     infoString = "As of " + updatedTime + ", the price of Bitcoin is: " + btcPrice
-    print(infoString)
+    return infoString
