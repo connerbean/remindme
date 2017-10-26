@@ -15,7 +15,8 @@ curr += '-' + str(datetime.datetime.now().month) + '-'
 curr += str(datetime.datetime.now().day)
 
 # Connect to database
-connection = sqlite3.connect('database.db')
+# Eventually make database online
+connection = sqlite3.connect('https://www.obvibase.com/#table/6WLR16YqUk9Elwp8')
 cursor = connection.cursor()
 
 # Output rules/regulations
